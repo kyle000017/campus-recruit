@@ -3,66 +3,6 @@ window.SCHOOL_RECRUIT = {
   "jobs2027": [
     {
       "id": "2027-001",
-      "company": "华为",
-      "title": "2027届华为校园招聘 - 研发类",
-      "industry": "互联网/科技",
-      "city": "深圳/北京/上海",
-      "degree": "本科及以上",
-      "date": "2026-08-20",
-      "link": "https://career.huawei.com/",
-      "is_new": false,
-      "batch": "2027届"
-    },
-    {
-      "id": "2027-002",
-      "company": "比亚迪",
-      "title": "2027届比亚迪校园招聘",
-      "industry": "汽车/制造",
-      "city": "深圳/西安/上海",
-      "degree": "本科及以上",
-      "date": "2026-08-19",
-      "link": "https://job.byd.com/",
-      "is_new": false,
-      "batch": "2027届"
-    },
-    {
-      "id": "2027-003",
-      "company": "国家电网",
-      "title": "2027届国家电网校园招聘",
-      "industry": "能源/央企",
-      "city": "全国",
-      "degree": "本科及以上",
-      "date": "2026-08-18",
-      "link": "https://zhaopin.sgcc.com.cn/",
-      "is_new": false,
-      "batch": "2027届"
-    },
-    {
-      "id": "2027-004",
-      "company": "中国移动",
-      "title": "2027届中国移动校园招聘",
-      "industry": "通信/央企",
-      "city": "全国",
-      "degree": "本科及以上",
-      "date": "2026-08-16",
-      "link": "https://job.10086.cn/",
-      "is_new": false,
-      "batch": "2027届"
-    },
-    {
-      "id": "2027-005",
-      "company": "中石油",
-      "title": "2027届中国石油校园招聘",
-      "industry": "能源/央企",
-      "city": "全国",
-      "degree": "本科及以上",
-      "date": "2026-08-15",
-      "link": "https://zhaopin.cnpc.com.cn/",
-      "is_new": false,
-      "batch": "2027届"
-    },
-    {
-      "id": "2027-006",
       "company": "京东",
       "title": "2027届京东校园招聘",
       "industry": "互联网/零售",
@@ -74,7 +14,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-007",
+      "id": "2027-002",
       "company": "密封新能源",
       "title": "密封新能源 2026招聘",
       "industry": "互联网/科技",
@@ -86,7 +26,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-008",
+      "id": "2027-003",
       "company": "国机密封",
       "title": "招聘｜国机密封2026招聘公告",
       "industry": "互联网/科技",
@@ -98,7 +38,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-009",
+      "id": "2027-004",
       "company": "星海音乐学",
       "title": "招聘｜星海音乐学院2026年第三批公开招聘工作人员公告",
       "industry": "互联网/科技",
@@ -110,7 +50,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-010",
+      "id": "2027-005",
       "company": "【招聘】深圳市人民医院2",
       "title": "【招聘】深圳市人民医院2026年度博士后招聘简章",
       "industry": "互联网/科技",
@@ -122,7 +62,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-011",
+      "id": "2027-006",
       "company": "【招聘】贵州航天凯山石油",
       "title": "【招聘】贵州航天凯山石油仪器有限公司2026-2027届校园招聘正式启动!",
       "industry": "互联网/科技",
@@ -134,7 +74,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-012",
+      "id": "2027-007",
       "company": "春秋航空",
       "title": "春秋航空 2027届校招",
       "industry": "互联网/科技",
@@ -146,7 +86,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-013",
+      "id": "2027-008",
       "company": "春秋航空",
       "title": "春秋航空 2027届校园招聘正式启动！",
       "industry": "互联网/科技",
@@ -158,7 +98,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-014",
+      "id": "2027-009",
       "company": "和而泰",
       "title": "和而泰2027届秋季校园招聘正式启动！",
       "industry": "互联网/科技",
@@ -170,7 +110,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-015",
+      "id": "2027-010",
       "company": "小马智行",
       "title": "小马智行 2027校园招聘",
       "industry": "互联网/科技",
@@ -182,7 +122,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-016",
+      "id": "2027-011",
       "company": "小马智行Pony.ai",
       "title": "小马智行Pony.ai 2027校园招聘正式启动",
       "industry": "互联网/科技",
@@ -194,7 +134,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-017",
+      "id": "2027-012",
       "company": "广电运通集团",
       "title": "广电运通集团2027届校园招聘正式启动",
       "industry": "互联网/科技",
@@ -206,7 +146,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-018",
+      "id": "2027-013",
       "company": "江苏恒立液压",
       "title": "江苏恒立液压 27届校招",
       "industry": "互联网/科技",
@@ -218,7 +158,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-019",
+      "id": "2027-014",
       "company": "恒立液压",
       "title": "恒立液压2027届校园招聘全面启动",
       "industry": "互联网/科技",
@@ -230,7 +170,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-020",
+      "id": "2027-015",
       "company": "开立医疗",
       "title": "开立医疗 27届秋招",
       "industry": "互联网/科技",
@@ -242,7 +182,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-021",
+      "id": "2027-016",
       "company": "27届",
       "title": "27届秋招",
       "industry": "互联网/科技",
@@ -254,7 +194,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-022",
+      "id": "2027-017",
       "company": "招商银行·招银网络科技",
       "title": "招商银行·招银网络科技 27届秋招",
       "industry": "互联网/科技",
@@ -266,7 +206,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-023",
+      "id": "2027-018",
       "company": "盛弘",
       "title": "盛弘 27届校招",
       "industry": "互联网/科技",
@@ -278,7 +218,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-024",
+      "id": "2027-019",
       "company": "盛势聚能",
       "title": "盛势聚能 弘动未来 | 盛弘股份2027届校园招聘",
       "industry": "互联网/科技",
@@ -290,7 +230,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-025",
+      "id": "2027-020",
       "company": "华为法律事务部",
       "title": "华为法律事务部 2026社招",
       "industry": "互联网/科技",
@@ -302,7 +242,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-026",
+      "id": "2027-021",
       "company": "华为法律事务部",
       "title": "华为法律事务部2026社会招聘持续进行中",
       "industry": "互联网/科技",
@@ -314,7 +254,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-027",
+      "id": "2027-022",
       "company": "安徽国控资本有限公司及所",
       "title": "安徽国控资本有限公司及所属企业2026年校园招聘、社会招聘（第二批）公告",
       "industry": "互联网/科技",
@@ -326,7 +266,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-028",
+      "id": "2027-023",
       "company": "极智嘉",
       "title": "极智嘉 27届校招",
       "industry": "互联网/科技",
@@ -338,7 +278,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-029",
+      "id": "2027-024",
       "company": "极智嘉",
       "title": "极智嘉2027届秋季校园招聘正式启动！",
       "industry": "互联网/科技",
@@ -350,7 +290,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-030",
+      "id": "2027-025",
       "company": "中国航天科工三院航天智信",
       "title": "中国航天科工三院航天智信 27届校招",
       "industry": "互联网/科技",
@@ -362,7 +302,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-031",
+      "id": "2027-026",
       "company": "中国航天科工三院航天智信",
       "title": "中国航天科工三院航天智信2027届校园招聘正式启动",
       "industry": "互联网/科技",
@@ -374,7 +314,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-032",
+      "id": "2027-027",
       "company": "常宝",
       "title": "常宝 2027届校招",
       "industry": "互联网/科技",
@@ -386,7 +326,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-033",
+      "id": "2027-028",
       "company": "匠心常守，宝启新程常宝股",
       "title": "匠心常守，宝启新程常宝股份2027届校园招聘火热开启",
       "industry": "互联网/科技",
@@ -398,7 +338,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-034",
+      "id": "2027-029",
       "company": "信息",
       "title": "招聘信息 | 上市企业，内蒙古优然牧业2026年校园招聘启事",
       "industry": "互联网/科技",
@@ -410,7 +350,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-035",
+      "id": "2027-030",
       "company": "华为终端BG",
       "title": "华为终端BG 2027届校招",
       "industry": "互联网/科技",
@@ -422,7 +362,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-036",
+      "id": "2027-031",
       "company": "2027届校招",
       "title": "2027届校招 | 华为终端BG Marketing与销售服务部",
       "industry": "互联网/科技",
@@ -434,7 +374,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-037",
+      "id": "2027-032",
       "company": "2027届校招",
       "title": "2027届校招 | 华为终端BG战略Marketing部",
       "industry": "互联网/科技",
@@ -446,7 +386,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-038",
+      "id": "2027-033",
       "company": "2027届校招",
       "title": "2027届校招 | 华为终端云服务部",
       "industry": "互联网/科技",
@@ -458,7 +398,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-039",
+      "id": "2027-034",
       "company": "台积电TSMC",
       "title": "台积电TSMC 2027届秋招",
       "industry": "互联网/科技",
@@ -470,7 +410,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-040",
+      "id": "2027-035",
       "company": "台积电",
       "title": "台积电2027届秋招正式启动！",
       "industry": "互联网/科技",
@@ -482,7 +422,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-041",
+      "id": "2027-036",
       "company": "哈啰",
       "title": "哈啰 27年招聘",
       "industry": "互联网/科技",
@@ -494,7 +434,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-042",
+      "id": "2027-037",
       "company": "哈啰",
       "title": "哈啰2027届英才校园招聘正式启动！",
       "industry": "互联网/科技",
@@ -506,7 +446,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-043",
+      "id": "2027-038",
       "company": "富兰瓦时",
       "title": "富兰瓦时 27届校招",
       "industry": "互联网/科技",
@@ -518,7 +458,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-044",
+      "id": "2027-039",
       "company": "Frank",
       "title": "招聘｜FranklinWH-2027校园招聘全面启动",
       "industry": "互联网/科技",
@@ -530,7 +470,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-045",
+      "id": "2027-040",
       "company": "泰芯半导体",
       "title": "泰芯半导体 27届校招",
       "industry": "互联网/科技",
@@ -542,7 +482,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-046",
+      "id": "2027-041",
       "company": "泰芯半导体",
       "title": "泰芯半导体2027届校园招聘｜聚芯聚力 共创未来",
       "industry": "互联网/科技",
@@ -554,7 +494,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-047",
+      "id": "2027-042",
       "company": "康冠科技KTC",
       "title": "康冠科技KTC 2027届校招",
       "industry": "互联网/科技",
@@ -566,7 +506,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-048",
+      "id": "2027-043",
       "company": "康冠科技",
       "title": "康冠科技2027届校园招聘正式启动！",
       "industry": "互联网/科技",
@@ -578,7 +518,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-049",
+      "id": "2027-044",
       "company": "优必选",
       "title": "优必选 27届校招",
       "industry": "互联网/科技",
@@ -590,7 +530,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-050",
+      "id": "2027-045",
       "company": "优必选",
       "title": "优必选2027届校园招聘正式启动！",
       "industry": "互联网/科技",
@@ -602,7 +542,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-051",
+      "id": "2027-046",
       "company": "君正",
       "title": "君正 27届校招",
       "industry": "互联网/科技",
@@ -614,7 +554,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-052",
+      "id": "2027-047",
       "company": "北京君正",
       "title": "北京君正2027届秋季校园招聘正式启动！",
       "industry": "互联网/科技",
@@ -626,7 +566,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-053",
+      "id": "2027-048",
       "company": "成都工作室",
       "title": "成都工作室 | 秋招开启，2027届er快看过来！",
       "industry": "互联网/科技",
@@ -638,7 +578,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-054",
+      "id": "2027-049",
       "company": "敏视科技",
       "title": "敏视科技 2027届校招",
       "industry": "互联网/科技",
@@ -650,7 +590,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-055",
+      "id": "2027-050",
       "company": "一键投递！敏视",
       "title": "一键投递！敏视2027届校园秋季招聘火热进行中~",
       "industry": "互联网/科技",
@@ -662,7 +602,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-056",
+      "id": "2027-051",
       "company": "星海音乐学院",
       "title": "招聘｜星海音乐学院2026年第三批公开招聘工作人员公告",
       "industry": "互联网/科技",
@@ -674,7 +614,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-057",
+      "id": "2027-052",
       "company": "深圳市人民医院",
       "title": "【招聘】深圳市人民医院2026年度博士后招聘简章",
       "industry": "互联网/科技",
@@ -686,7 +626,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-058",
+      "id": "2027-053",
       "company": "贵州航天凯山石油仪器有限",
       "title": "【招聘】贵州航天凯山石油仪器有限公司2026-2027届校园招聘正式启动!",
       "industry": "互联网/科技",
@@ -698,7 +638,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-059",
+      "id": "2027-054",
       "company": "FranklinWH",
       "title": "招聘｜FranklinWH-2027校园招聘全面启动",
       "industry": "互联网/科技",
@@ -710,7 +650,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-060",
+      "id": "2027-055",
       "company": "2027届校招 ",
       "title": "2027届校招 | 华为终端BG Marketing与销售服务部",
       "industry": "互联网/科技",
@@ -722,7 +662,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-061",
+      "id": "2027-056",
       "company": "2027届校招 ",
       "title": "2027届校招 | 华为终端BG战略Marketing部",
       "industry": "互联网/科技",
@@ -734,7 +674,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-062",
+      "id": "2027-057",
       "company": "2027届校招 ",
       "title": "2027届校招 | 华为终端云服务部",
       "industry": "互联网/科技",
@@ -746,7 +686,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-063",
+      "id": "2027-058",
       "company": "浪潮集团",
       "title": "浪潮集团2027届校园招聘提前批正式启动！",
       "industry": "",
@@ -758,7 +698,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-064",
+      "id": "2027-059",
       "company": "中国电信天翼云",
       "title": "中国电信天翼云2027届校园招聘全面启动！",
       "industry": "",
@@ -770,7 +710,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-065",
+      "id": "2027-060",
       "company": "京东方",
       "title": "京东方2027届「先锋京英计划」线下面试报名开启",
       "industry": "",
@@ -782,7 +722,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-066",
+      "id": "2027-061",
       "company": "京东方",
       "title": "京东方2027届「先锋京英计划」｜通信等专业同学，对口岗位来袭",
       "industry": "",
@@ -794,7 +734,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-067",
+      "id": "2027-062",
       "company": "字节跳动",
       "title": "字节跳动 2027 校园招聘正式启动！",
       "industry": "",
@@ -806,7 +746,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-068",
+      "id": "2027-063",
       "company": "哔哩哔哩",
       "title": "哔哩哔哩2027届秋季校园招聘正式启动！",
       "industry": "",
@@ -818,7 +758,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-069",
+      "id": "2027-064",
       "company": "帆软",
       "title": "帆软2027届秋季校园招聘「提前批」启动！",
       "industry": "",
@@ -830,7 +770,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-070",
+      "id": "2027-065",
       "company": "航空工业兴华",
       "title": "航空工业兴华2027届校园招聘正式开始！",
       "industry": "",
@@ -842,7 +782,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-071",
+      "id": "2027-066",
       "company": "宇树科技",
       "title": "宇树科技2027届校园招聘正式启动",
       "industry": "",
@@ -854,7 +794,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-072",
+      "id": "2027-067",
       "company": "百度",
       "title": "百度2027届校园招聘正式启动！",
       "industry": "",
@@ -866,7 +806,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-073",
+      "id": "2027-068",
       "company": "OPPO",
       "title": "OPPO 2027届全球校园招聘启动！点亮世界，趁现在！",
       "industry": "",
@@ -878,7 +818,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-074",
+      "id": "2027-069",
       "company": "影石",
       "title": "影石2027届秋季校园招聘启动",
       "industry": "",
@@ -890,7 +830,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-075",
+      "id": "2027-070",
       "company": "芯恩",
       "title": "芯恩2027届校园招聘正式启动！",
       "industry": "",
@@ -902,7 +842,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-076",
+      "id": "2027-071",
       "company": "高德地图",
       "title": "高德地图2027届应届生招聘正式启动！",
       "industry": "",
@@ -914,7 +854,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-077",
+      "id": "2027-072",
       "company": "淘天集团丨",
       "title": "淘天集团丨2027届应届生招聘正式启动",
       "industry": "",
@@ -926,7 +866,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-078",
+      "id": "2027-073",
       "company": "阿里巴巴",
       "title": "阿里巴巴2027届应届生招聘全球启动！",
       "industry": "",
@@ -938,7 +878,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-079",
+      "id": "2027-074",
       "company": "平头哥丨",
       "title": "平头哥丨2027届应届生招聘正式启动",
       "industry": "",
@@ -950,7 +890,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-080",
+      "id": "2027-075",
       "company": "京东",
       "title": "京东2027校园招聘全面启动！",
       "industry": "",
@@ -962,7 +902,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-081",
+      "id": "2027-076",
       "company": "小米",
       "title": "小米2027届校园大使招募正式启动",
       "industry": "",
@@ -974,7 +914,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-082",
+      "id": "2027-077",
       "company": "小米",
       "title": "小米2027届全球校园招聘正式启动",
       "industry": "",
@@ -986,7 +926,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-083",
+      "id": "2027-078",
       "company": "星宸科技",
       "title": "星宸科技2027届校园招聘正式启动 | 星耀时代 宸启未来",
       "industry": "",
@@ -998,7 +938,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-084",
+      "id": "2027-079",
       "company": "阿里控股丨",
       "title": "阿里控股丨2027届应届生招聘正式启动",
       "industry": "",
@@ -1010,7 +950,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-085",
+      "id": "2027-080",
       "company": "淘宝闪购丨",
       "title": "淘宝闪购丨2027届应届生招聘正式启动",
       "industry": "",
@@ -1022,7 +962,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-086",
+      "id": "2027-081",
       "company": "此芯科技青芯计划",
       "title": "此芯科技青芯计划2026启动 | 芯片研发工程师养成计划",
       "industry": "",
@@ -1034,7 +974,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-087",
+      "id": "2027-082",
       "company": "联想",
       "title": "联想2027校园招聘全面启动！",
       "industry": "",
@@ -1046,7 +986,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-088",
+      "id": "2027-083",
       "company": "联想",
       "title": "联想2027校园招聘AI专项启动！",
       "industry": "",
@@ -1058,7 +998,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-089",
+      "id": "2027-084",
       "company": "联想集团",
       "title": "联想集团2027全球管培生GFL项目，正式启动！",
       "industry": "",
@@ -1070,7 +1010,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-090",
+      "id": "2027-085",
       "company": "帝奥微(688381)",
       "title": "帝奥微(688381)2027届校园招聘正式启动！",
       "industry": "",
@@ -1082,7 +1022,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-091",
+      "id": "2027-086",
       "company": "深信服",
       "title": "深信服2027届全球校招重磅开启！五大岗位方向，全球广纳英才！",
       "industry": "",
@@ -1094,7 +1034,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-092",
+      "id": "2027-087",
       "company": "蚂蚁集团",
       "title": "蚂蚁集团 2027 校园招聘正式启动！",
       "industry": "",
@@ -1106,7 +1046,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-093",
+      "id": "2027-088",
       "company": "CVTE",
       "title": "CVTE2027届秋季校园招聘启动！",
       "industry": "",
@@ -1118,7 +1058,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-094",
+      "id": "2027-089",
       "company": "新凯来",
       "title": "新凯来2027届校园招聘正式启动！",
       "industry": "",
@@ -1130,7 +1070,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-095",
+      "id": "2027-090",
       "company": "芯原股份",
       "title": "芯原股份2027届校园招聘正式启动",
       "industry": "",
@@ -1142,7 +1082,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-096",
+      "id": "2027-091",
       "company": "德州仪器",
       "title": "德州仪器2027届秋季校园招聘全面开启",
       "industry": "",
@@ -1154,7 +1094,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-097",
+      "id": "2027-092",
       "company": "佳驰科技",
       "title": "佳驰科技2027届校园招聘正式启动",
       "industry": "",
@@ -1166,7 +1106,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-098",
+      "id": "2027-093",
       "company": "拓竹科技",
       "title": "拓竹科技2027届校园招聘正式启动！",
       "industry": "",
@@ -1178,7 +1118,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-099",
+      "id": "2027-094",
       "company": "创维集团",
       "title": "创维集团2027届全球校园招聘正式启动！",
       "industry": "",
@@ -1190,7 +1130,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-100",
+      "id": "2027-095",
       "company": "润石科技",
       "title": "招聘丨润石科技2027届秋招启航",
       "industry": "",
@@ -1202,7 +1142,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-101",
+      "id": "2027-096",
       "company": "菜鸟丨",
       "title": "菜鸟丨2027届应届生招聘正式启动",
       "industry": "",
@@ -1214,7 +1154,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-102",
+      "id": "2027-097",
       "company": "vivo",
       "title": "vivo 2027届全球校园招聘正式启动",
       "industry": "",
@@ -1226,7 +1166,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-103",
+      "id": "2027-098",
       "company": "理想汽车",
       "title": "理想汽车2027校园招聘正式启动",
       "industry": "",
@@ -1238,7 +1178,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-104",
+      "id": "2027-099",
       "company": "歌尔微电子",
       "title": "歌尔微电子2027届精英计划校园招聘正式启动",
       "industry": "",
@@ -1250,7 +1190,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-105",
+      "id": "2027-100",
       "company": "中芯国际",
       "title": "中芯国际2027届校园招聘正式启动",
       "industry": "",
@@ -1262,7 +1202,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-106",
+      "id": "2027-101",
       "company": "招商银行·招银网络科技",
       "title": "招商银行·招银网络科技2027届秋季校园招聘全球启动！",
       "industry": "",
@@ -1274,7 +1214,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-107",
+      "id": "2027-102",
       "company": "东软灵犀人才计划",
       "title": "东软灵犀人才计划——2027届技术管培生秋季招聘正式启动！",
       "industry": "",
@@ -1286,7 +1226,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-108",
+      "id": "2027-103",
       "company": "舜宇集团",
       "title": "舜宇集团2027届全球校园招聘 | 正式启动",
       "industry": "",
@@ -1298,7 +1238,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-109",
+      "id": "2027-104",
       "company": "兆芯",
       "title": "兆芯2027校园招聘正式启动",
       "industry": "",
@@ -1310,7 +1250,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-110",
+      "id": "2027-105",
       "company": "新华三集团",
       "title": "新华三集团2027届校园招聘全球启动",
       "industry": "",
@@ -1322,7 +1262,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-111",
+      "id": "2027-106",
       "company": "得物",
       "title": "得物2027届校园招聘｜开箱新世界",
       "industry": "",
@@ -1334,7 +1274,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-112",
+      "id": "2027-107",
       "company": "上场，与世界交手",
       "title": "上场，与世界交手 | 地平线2027届秋季校园招聘",
       "industry": "",
@@ -1346,7 +1286,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-113",
+      "id": "2027-108",
       "company": "寒武纪",
       "title": "寒武纪2027届校园招聘正式启动",
       "industry": "",
@@ -1358,7 +1298,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-114",
+      "id": "2027-109",
       "company": "有鹅选鹅！腾讯",
       "title": "有鹅选鹅！腾讯2027校园招聘全球启动",
       "industry": "",
@@ -1370,7 +1310,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-115",
+      "id": "2027-110",
       "company": "中国平安",
       "title": "中国平安2027全球校园招聘正式启动！",
       "industry": "",
@@ -1382,7 +1322,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-116",
+      "id": "2027-111",
       "company": "智元届校园",
       "title": "智元届校园招聘全面启动！",
       "industry": "",
@@ -1394,7 +1334,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-117",
+      "id": "2027-112",
       "company": "欣旺达",
       "title": "欣旺达2027届全球校园招聘正式启动！",
       "industry": "",
@@ -1406,7 +1346,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-118",
+      "id": "2027-113",
       "company": "基恩士",
       "title": "基恩士2027秋季校园招聘开启！",
       "industry": "",
@@ -1418,7 +1358,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-119",
+      "id": "2027-114",
       "company": "卡特彼勒",
       "title": "卡特彼勒2027校园招聘正式开启！",
       "industry": "",
@@ -1430,7 +1370,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-120",
+      "id": "2027-115",
       "company": "新芯股份",
       "title": "新芯股份2027届全球校园招聘正式启动",
       "industry": "",
@@ -1442,7 +1382,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-121",
+      "id": "2027-116",
       "company": "吉利控股集团",
       "title": "吉利控股集团2027届全球校园招聘正式启动",
       "industry": "",
@@ -1454,7 +1394,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-122",
+      "id": "2027-117",
       "company": "思特威",
       "title": "思特威2027届校园招聘正式启动！",
       "industry": "",
@@ -1466,7 +1406,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-123",
+      "id": "2027-118",
       "company": "滴滴",
       "title": "滴滴2027届校园招聘正式启动！",
       "industry": "",
@@ -1478,7 +1418,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-124",
+      "id": "2027-119",
       "company": "精彩计划",
       "title": "精彩计划 | 圆通2027届校园招聘全面启动",
       "industry": "",
@@ -1490,7 +1430,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-125",
+      "id": "2027-120",
       "company": "搜狐集团",
       "title": "搜狐集团2027秋季校园招聘正式启动！",
       "industry": "",
@@ -1502,7 +1442,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-126",
+      "id": "2027-121",
       "company": "汇顶科技",
       "title": "汇顶科技2027届校园招聘正式启动！",
       "industry": "",
@@ -1514,7 +1454,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-127",
+      "id": "2027-122",
       "company": "恒生",
       "title": "恒生2027校园招聘正式启动",
       "industry": "",
@@ -1526,7 +1466,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-128",
+      "id": "2027-123",
       "company": "星启未来·由你定义",
       "title": "星启未来·由你定义 | 鸿擎科技2027全球校园招聘，正式启动！",
       "industry": "",
@@ -1538,7 +1478,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-129",
+      "id": "2027-124",
       "company": "微步在线",
       "title": "微步在线2027届校招开启啦",
       "industry": "",
@@ -1550,7 +1490,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-130",
+      "id": "2027-125",
       "company": "华为",
       "title": "华为2027届应届生招聘启动",
       "industry": "",
@@ -1562,7 +1502,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-131",
+      "id": "2027-126",
       "company": "紫金矿业",
       "title": "紫金矿业2027届全球校园招聘全面启动！",
       "industry": "",
@@ -1574,7 +1514,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-132",
+      "id": "2027-127",
       "company": "中铁大桥院",
       "title": "中铁大桥院2027届校园招聘正式启动！",
       "industry": "",
@@ -1586,7 +1526,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-133",
+      "id": "2027-128",
       "company": "鹏芯微",
       "title": "鹏芯微2027届校园招聘正式启动！",
       "industry": "",
@@ -1598,7 +1538,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-134",
+      "id": "2027-129",
       "company": "长光卫星",
       "title": "长光卫星2027届校园招聘",
       "industry": "",
@@ -1610,7 +1550,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-135",
+      "id": "2027-130",
       "company": "大华股份",
       "title": "大华股份2027届顶尖人才招聘启动！",
       "industry": "",
@@ -1622,7 +1562,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-136",
+      "id": "2027-131",
       "company": "芯光耀未来",
       "title": "芯光耀未来 | 上海光通信有限公司2027届校园招聘正式启动！",
       "industry": "",
@@ -1634,7 +1574,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-137",
+      "id": "2027-132",
       "company": "盛合晶微",
       "title": "盛合晶微2027届校园招聘启动",
       "industry": "",
@@ -1646,7 +1586,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-138",
+      "id": "2027-133",
       "company": "韶音科技",
       "title": "韶音科技2027届秋季校园招聘启动！",
       "industry": "",
@@ -1658,7 +1598,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-139",
+      "id": "2027-134",
       "company": "中国航空工业集团上电",
       "title": "中国航空工业集团上电2027校园招聘正式开启！",
       "industry": "",
@@ -1670,7 +1610,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-140",
+      "id": "2027-135",
       "company": "荣耀",
       "title": "荣耀2027届校园招聘全球启动",
       "industry": "",
@@ -1682,7 +1622,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-141",
+      "id": "2027-136",
       "company": "零跑汽车",
       "title": "零跑汽车2027届核心研发岗位校招启动",
       "industry": "",
@@ -1694,7 +1634,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-142",
+      "id": "2027-137",
       "company": "中科曙光",
       "title": "中科曙光2027校园招聘全面启动",
       "industry": "",
@@ -1706,7 +1646,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-143",
+      "id": "2027-138",
       "company": "Keeta",
       "title": "Keeta 2027 届全球校园招聘正式启动",
       "industry": "",
@@ -1718,7 +1658,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-144",
+      "id": "2027-139",
       "company": "华为智能汽车解决方案BU",
       "title": "华为智能汽车解决方案BU | 2027届应届生招聘正式启动！",
       "industry": "",
@@ -1730,7 +1670,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-145",
+      "id": "2027-140",
       "company": "比亚迪",
       "title": "比亚迪2027届全球校园招聘正式启动！",
       "industry": "",
@@ -1742,7 +1682,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-146",
+      "id": "2027-141",
       "company": "汇川技术",
       "title": "汇川技术2027届校园招聘全球启动！",
       "industry": "",
@@ -1754,7 +1694,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-147",
+      "id": "2027-142",
       "company": "「投」号玩家",
       "title": "「投」号玩家｜百度2027届校招市集报名中",
       "industry": "",
@@ -1766,7 +1706,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-148",
+      "id": "2027-143",
       "company": "星空为幕，华诺启航丨华诺",
       "title": "星空为幕，华诺启航丨华诺星空2027届校园招聘火热开启！",
       "industry": "",
@@ -1778,7 +1718,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-149",
+      "id": "2027-144",
       "company": "TP",
       "title": "TP-LINK 2027届秋季校园招聘正式启动！",
       "industry": "",
@@ -1790,7 +1730,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-150",
+      "id": "2027-145",
       "company": "同芯筑梦",
       "title": "同芯筑梦 共创未来 | 国科微电子2027届校园招聘硬核启航！",
       "industry": "",
@@ -1802,7 +1742,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-151",
+      "id": "2027-146",
       "company": "网易互联网",
       "title": "校招 | 网易互联网2027届校园招聘正式启动！",
       "industry": "",
@@ -1814,7 +1754,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-152",
+      "id": "2027-147",
       "company": "点云重构空间",
       "title": "点云重构空间 AI感知无界 | 数字绿土2027届校招正式启动",
       "industry": "",
@@ -1826,7 +1766,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-153",
+      "id": "2027-148",
       "company": "千里科技",
       "title": "千里科技2027届校园招聘正式启动！",
       "industry": "",
@@ -1838,7 +1778,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-154",
+      "id": "2027-149",
       "company": "登陆松霖智造星球，",
       "title": "登陆松霖智造星球，2027届校招全员启航！",
       "industry": "",
@@ -1850,7 +1790,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-155",
+      "id": "2027-150",
       "company": "睿联",
       "title": "校招 | 睿联2027届校园招聘正式启动！",
       "industry": "",
@@ -1862,7 +1802,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-156",
+      "id": "2027-151",
       "company": "海康威视",
       "title": "海康威视2027校园招聘正式启动！",
       "industry": "",
@@ -1874,7 +1814,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-157",
+      "id": "2027-152",
       "company": "传音控股",
       "title": "传音控股2027届“雏鹰计划”全球校园招聘正式启动！",
       "industry": "",
@@ -1886,7 +1826,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-158",
+      "id": "2027-153",
       "company": "风禾尽起",
       "title": "风禾尽起 能控未来 | 禾望电气2027届校园招聘全面启动",
       "industry": "",
@@ -1898,7 +1838,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-159",
+      "id": "2027-154",
       "company": "海信集团",
       "title": "海信集团2027届全球校园招聘正式启动！",
       "industry": "",
@@ -1910,7 +1850,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-160",
+      "id": "2027-155",
       "company": "歌尔",
       "title": "歌尔2027届校园招聘正式启动",
       "industry": "",
@@ -1922,7 +1862,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-161",
+      "id": "2027-156",
       "company": "华为",
       "title": "华为2027届应届生招聘FAQ",
       "industry": "",
@@ -1934,7 +1874,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-162",
+      "id": "2027-157",
       "company": "英特尔",
       "title": "英特尔2027校园招聘正式启动！",
       "industry": "",
@@ -1946,7 +1886,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-163",
+      "id": "2027-158",
       "company": "辉芒微电子",
       "title": "辉芒微电子2027届校园招聘会正式启动",
       "industry": "",
@@ -1958,7 +1898,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-164",
+      "id": "2027-159",
       "company": "杰瑞集团",
       "title": "杰瑞集团2027届全球校园招聘正式启动",
       "industry": "",
@@ -1970,7 +1910,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-165",
+      "id": "2027-160",
       "company": "芯怀山海，智造国芯",
       "title": "芯怀山海，智造国芯｜博瑞集信2027届校园招聘全面启动！",
       "industry": "",
@@ -1982,7 +1922,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-166",
+      "id": "2027-161",
       "company": "富特科技",
       "title": "校招|富特科技2027届校园招聘正式启动",
       "industry": "",
@@ -1994,7 +1934,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-167",
+      "id": "2027-162",
       "company": "格思航天",
       "title": "格思航天2027届校园招聘正式启动",
       "industry": "",
@@ -2006,7 +1946,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-168",
+      "id": "2027-163",
       "company": "更多",
       "title": "更多",
       "industry": "",
@@ -2018,7 +1958,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-169",
+      "id": "2027-164",
       "company": "培训活动",
       "title": "培训活动",
       "industry": "",
@@ -2030,7 +1970,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-170",
+      "id": "2027-165",
       "company": "个体咨询",
       "title": "个体咨询",
       "industry": "",
@@ -2042,7 +1982,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-171",
+      "id": "2027-166",
       "company": "基础教育专区",
       "title": "基础教育专区",
       "industry": "",
@@ -2054,7 +1994,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-172",
+      "id": "2027-167",
       "company": "创新创业平台",
       "title": "创新创业平台",
       "industry": "",
@@ -2066,7 +2006,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-173",
+      "id": "2027-168",
       "company": "首页",
       "title": "首页",
       "industry": "",
@@ -2078,7 +2018,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-174",
+      "id": "2027-169",
       "company": "电商独角兽",
       "title": "电商独角兽-掌上先机/慧策-2026校园招聘",
       "industry": "",
@@ -2090,7 +2030,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-175",
+      "id": "2027-170",
       "company": "激光院2027年校招简章",
       "title": "激光院2027年校招简章",
       "industry": "",
@@ -2102,7 +2042,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-176",
+      "id": "2027-171",
       "company": "创维集团2027届全球校园招聘",
       "title": "创维集团2027届全球校园招聘",
       "industry": "",
@@ -2114,7 +2054,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-177",
+      "id": "2027-172",
       "company": "深圳市鼎阳科技股份有限公司2027届校园招聘火热进行中",
       "title": "深圳市鼎阳科技股份有限公司2027届校园招聘火热进行中",
       "industry": "",
@@ -2126,7 +2066,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-178",
+      "id": "2027-173",
       "company": "中微公司2027【登峰计划】校园招聘",
       "title": "中微公司2027【登峰计划】校园招聘",
       "industry": "",
@@ -2138,7 +2078,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-179",
+      "id": "2027-174",
       "company": "芯耀鹏城，质赢未来",
       "title": "芯耀鹏城，质赢未来 鹏新旭2027届校园招聘",
       "industry": "",
@@ -2150,7 +2090,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-180",
+      "id": "2027-175",
       "company": "Aidite爱迪特2027校园招聘启动",
       "title": "Aidite爱迪特2027校园招聘启动",
       "industry": "",
@@ -2162,7 +2102,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-181",
+      "id": "2027-176",
       "company": "沐曦股份2027届校园招聘启动：芯青年",
       "title": "沐曦股份2027届校园招聘启动：芯青年 · 芯时代",
       "industry": "",
@@ -2174,7 +2114,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-182",
+      "id": "2027-177",
       "company": "万般热爱",
       "title": "万般热爱 向新而生-珠海万达商管2027届校园招聘启动！",
       "industry": "",
@@ -2186,7 +2126,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-183",
+      "id": "2027-178",
       "company": "保利发展控股海南公司2027届校园招聘",
       "title": "保利发展控股海南公司2027届校园招聘",
       "industry": "",
@@ -2198,7 +2138,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-184",
+      "id": "2027-179",
       "company": "湖南未来教育集团2027年校园招聘正式启动",
       "title": "湖南未来教育集团2027年校园招聘正式启动",
       "industry": "",
@@ -2210,7 +2150,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-185",
+      "id": "2027-180",
       "company": "亚马逊2027年校园招聘正式启动！",
       "title": "亚马逊2027年校园招聘正式启动！",
       "industry": "",
@@ -2222,7 +2162,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-186",
+      "id": "2027-181",
       "company": "华中科技大学2027届毕业生生源信息",
       "title": "华中科技大学2027届毕业生生源信息",
       "industry": "",
@@ -2234,7 +2174,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-187",
+      "id": "2027-182",
       "company": "芯耀辉科技2027届校园招聘简章",
       "title": "芯耀辉科技2027届校园招聘简章",
       "industry": "",
@@ -2246,7 +2186,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-188",
+      "id": "2027-183",
       "company": "Garena",
       "title": "Garena 2027届校园招聘简章",
       "industry": "",
@@ -2258,7 +2198,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-189",
+      "id": "2027-184",
       "company": "中国平安2027全球校园招聘简章",
       "title": "中国平安2027全球校园招聘简章",
       "industry": "",
@@ -2270,7 +2210,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-190",
+      "id": "2027-185",
       "company": "中科曙光2027届校园招聘简章",
       "title": "中科曙光2027届校园招聘简章",
       "industry": "",
@@ -2282,7 +2222,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-191",
+      "id": "2027-186",
       "company": "算能",
       "title": "算能 2027 届校园招聘简章",
       "industry": "",
@@ -2294,7 +2234,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-192",
+      "id": "2027-187",
       "company": "寻找爱“迪”生——比亚迪2027届秋季校园招聘简章",
       "title": "寻找爱“迪”生——比亚迪2027届秋季校园招聘简章",
       "industry": "",
@@ -2306,7 +2246,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-193",
+      "id": "2027-188",
       "company": "字节跳动",
       "title": "2027届字节跳动校园招聘",
       "industry": "互联网/科技",
@@ -2318,7 +2258,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-194",
+      "id": "2027-189",
       "company": "宁德时代",
       "title": "2027届宁德时代校园招聘",
       "industry": "新能源/制造",
@@ -2330,7 +2270,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-195",
+      "id": "2027-190",
       "company": "腾讯",
       "title": "2027届腾讯校园招聘",
       "industry": "互联网/科技",
@@ -2342,7 +2282,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2027届"
     },
     {
-      "id": "2027-196",
+      "id": "2027-191",
       "company": "阿里巴巴",
       "title": "2027届阿里巴巴校园招聘",
       "industry": "互联网/科技",
@@ -2352,35 +2292,71 @@ window.SCHOOL_RECRUIT = {
       "link": "https://talent.alibaba.com/",
       "is_new": true,
       "batch": "2027届"
+    },
+    {
+      "id": "2027-192",
+      "company": "华为",
+      "title": "2027届华为校园招聘 - 研发类",
+      "industry": "互联网/科技",
+      "city": "深圳/北京/上海",
+      "degree": "本科及以上",
+      "date": "2026-08-20",
+      "link": "https://career.huawei.com/",
+      "is_new": false,
+      "batch": "2027届"
+    },
+    {
+      "id": "2027-193",
+      "company": "比亚迪",
+      "title": "2027届比亚迪校园招聘",
+      "industry": "汽车/制造",
+      "city": "深圳/西安/上海",
+      "degree": "本科及以上",
+      "date": "2026-08-19",
+      "link": "https://job.byd.com/",
+      "is_new": false,
+      "batch": "2027届"
+    },
+    {
+      "id": "2027-194",
+      "company": "国家电网",
+      "title": "2027届国家电网校园招聘",
+      "industry": "能源/央企",
+      "city": "全国",
+      "degree": "本科及以上",
+      "date": "2026-08-18",
+      "link": "https://zhaopin.sgcc.com.cn/",
+      "is_new": false,
+      "batch": "2027届"
+    },
+    {
+      "id": "2027-195",
+      "company": "中国移动",
+      "title": "2027届中国移动校园招聘",
+      "industry": "通信/央企",
+      "city": "全国",
+      "degree": "本科及以上",
+      "date": "2026-08-16",
+      "link": "https://job.10086.cn/",
+      "is_new": false,
+      "batch": "2027届"
+    },
+    {
+      "id": "2027-196",
+      "company": "中石油",
+      "title": "2027届中国石油校园招聘",
+      "industry": "能源/央企",
+      "city": "全国",
+      "degree": "本科及以上",
+      "date": "2026-08-15",
+      "link": "https://zhaopin.cnpc.com.cn/",
+      "is_new": false,
+      "batch": "2027届"
     }
   ],
   "jobs2026": [
     {
       "id": "2026-001",
-      "company": "美团",
-      "title": "2026届补录 - 研发/产品岗位",
-      "industry": "互联网/科技",
-      "city": "北京/上海",
-      "degree": "本科及以上",
-      "date": "2026-08-20",
-      "link": "https://zhaopin.meituan.com/",
-      "is_new": false,
-      "batch": "2026届"
-    },
-    {
-      "id": "2026-002",
-      "company": "中兴通讯",
-      "title": "26届补招 - 通信/软件类岗位",
-      "industry": "通信",
-      "city": "深圳/南京/西安",
-      "degree": "本科及以上",
-      "date": "2026-08-18",
-      "link": "https://job.zte.com.cn/",
-      "is_new": false,
-      "batch": "2026届"
-    },
-    {
-      "id": "2026-003",
       "company": "星海音乐学院",
       "title": "星海音乐学院 26届正式批",
       "industry": "",
@@ -2392,7 +2368,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2026届"
     },
     {
-      "id": "2026-004",
+      "id": "2026-002",
       "company": "深圳市人民医院",
       "title": "深圳市人民医院 26届博士后社招",
       "industry": "",
@@ -2404,7 +2380,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2026届"
     },
     {
-      "id": "2026-005",
+      "id": "2026-003",
       "company": "贵州航天凯山石油仪器",
       "title": "贵州航天凯山石油仪器 26届校招",
       "industry": "",
@@ -2416,7 +2392,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2026届"
     },
     {
-      "id": "2026-006",
+      "id": "2026-004",
       "company": "和而泰",
       "title": "和而泰 26届校招",
       "industry": "",
@@ -2428,7 +2404,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2026届"
     },
     {
-      "id": "2026-007",
+      "id": "2026-005",
       "company": "广电运通",
       "title": "广电运通 26届校招",
       "industry": "",
@@ -2440,7 +2416,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2026届"
     },
     {
-      "id": "2026-008",
+      "id": "2026-006",
       "company": "优然牧业",
       "title": "优然牧业 26届校招",
       "industry": "",
@@ -2452,7 +2428,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2026届"
     },
     {
-      "id": "2026-009",
+      "id": "2026-007",
       "company": "维塔士",
       "title": "维塔士 26届校招",
       "industry": "",
@@ -2464,7 +2440,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2026届"
     },
     {
-      "id": "2026-010",
+      "id": "2026-008",
       "company": "腾讯IEG",
       "title": "2026秋招补录通道 - 应往届生可投",
       "industry": "互联网/游戏",
@@ -2476,7 +2452,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2026届"
     },
     {
-      "id": "2026-011",
+      "id": "2026-009",
       "company": "顺丰科技",
       "title": "26届往届生补录 - 技术类",
       "industry": "物流/科技",
@@ -2488,7 +2464,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2026届"
     },
     {
-      "id": "2026-012",
+      "id": "2026-010",
       "company": "OPPO",
       "title": "2026届校招补招正式开启 - 往届可投",
       "industry": "互联网/科技",
@@ -2500,7 +2476,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2026届"
     },
     {
-      "id": "2026-013",
+      "id": "2026-011",
       "company": "小米",
       "title": "26届往届可投 - 硬件研发/软件工程",
       "industry": "互联网/科技",
@@ -2512,7 +2488,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2026届"
     },
     {
-      "id": "2026-014",
+      "id": "2026-012",
       "company": "FunPlus趣加",
       "title": "2026届校园招聘补录 - 游戏研发",
       "industry": "互联网/游戏",
@@ -2524,7 +2500,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2026届"
     },
     {
-      "id": "2026-015",
+      "id": "2026-013",
       "company": "4399游戏",
       "title": "2026届秋招补录通道已开启",
       "industry": "互联网/游戏",
@@ -2536,7 +2512,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2026届"
     },
     {
-      "id": "2026-016",
+      "id": "2026-014",
       "company": "星火教育",
       "title": "2026届校园招聘补录 - 教学岗位",
       "industry": "教育",
@@ -2548,7 +2524,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2026届"
     },
     {
-      "id": "2026-017",
+      "id": "2026-015",
       "company": "宁德新能源",
       "title": "2026年校园招聘 - 新能源研发",
       "industry": "新能源/制造",
@@ -2560,7 +2536,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2026届"
     },
     {
-      "id": "2026-018",
+      "id": "2026-016",
       "company": "梅花集团",
       "title": "2026届校园招聘 - 应往届可投",
       "industry": "食品/制造",
@@ -2572,7 +2548,7 @@ window.SCHOOL_RECRUIT = {
       "batch": "2026届"
     },
     {
-      "id": "2026-019",
+      "id": "2026-017",
       "company": "波克城市",
       "title": "2026春季校园招聘 - 游戏/运营",
       "industry": "互联网/游戏",
@@ -2581,6 +2557,30 @@ window.SCHOOL_RECRUIT = {
       "date": "2026-08-17",
       "link": "https://www.boke.com/join",
       "is_new": true,
+      "batch": "2026届"
+    },
+    {
+      "id": "2026-018",
+      "company": "美团",
+      "title": "2026届补录 - 研发/产品岗位",
+      "industry": "互联网/科技",
+      "city": "北京/上海",
+      "degree": "本科及以上",
+      "date": "2026-08-20",
+      "link": "https://zhaopin.meituan.com/",
+      "is_new": false,
+      "batch": "2026届"
+    },
+    {
+      "id": "2026-019",
+      "company": "中兴通讯",
+      "title": "26届补招 - 通信/软件类岗位",
+      "industry": "通信",
+      "city": "深圳/南京/西安",
+      "degree": "本科及以上",
+      "date": "2026-08-18",
+      "link": "https://job.zte.com.cn/",
+      "is_new": false,
       "batch": "2026届"
     }
   ],

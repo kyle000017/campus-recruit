@@ -322,8 +322,8 @@ def finalize(records, batch_tag):
         # 过了一天,历史新增标记复位(保留当天新增)
         r["batch"] = batch_tag
         out.append(r)
-    # 日期降序,is_new 优先
-    out.sort(key=lambda x: (not x.get("is_new"), x.get("date", "").__str__()), reverse=True)
+    # 今日新增置顶,组内按日期降序(最新在前)
+    out.sort(key=lambda x: (x.get("is_new"), x.get("date", "")), reverse=True)
     for i, r in enumerate(out, 1):
         r["id"] = f"{batch_tag[:4]}-{i:03d}"
     return out
