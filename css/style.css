@@ -1,0 +1,121 @@
+:root {
+  --primary: #2b6cb0;
+  --primary-dark: #1a4f8b;
+  --accent: #e53e3e;
+  --bg: #f5f7fa;
+  --card-bg: #ffffff;
+  --text: #2d3748;
+  --text-light: #718096;
+  --border: #e2e8f0;
+  --radius: 10px;
+  --shadow: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+
+/* 顶部 */
+.site-header { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: #fff; padding: 20px 0; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+.logo { font-size: 22px; font-weight: 700; }
+.updated { font-size: 13px; opacity: .85; }
+
+/* Tab */
+.tab-bar { background: #fff; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 10; }
+.tab-inner { display: flex; gap: 4px; overflow-x: auto; }
+.tab-btn {
+  padding: 12px 18px; border: none; background: none; font-size: 15px; cursor: pointer;
+  color: var(--text-light); border-bottom: 3px solid transparent; white-space: nowrap; font-weight: 500;
+}
+.tab-btn:hover { color: var(--primary); }
+.tab-btn.active { color: var(--primary); border-bottom-color: var(--primary); font-weight: 600; }
+
+main { padding: 20px 0 40px; }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* 筛选 */
+.filter-bar { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; }
+.search-input {
+  flex: 1; min-width: 220px; padding: 9px 14px; border: 1px solid var(--border);
+  border-radius: var(--radius); font-size: 14px; background: var(--card-bg);
+}
+.filter-select {
+  padding: 9px 12px; border: 1px solid var(--border); border-radius: var(--radius);
+  font-size: 14px; background: var(--card-bg); color: var(--text); cursor: pointer;
+}
+.reset-btn {
+  padding: 9px 16px; border: 1px solid var(--border); border-radius: var(--radius);
+  background: #fff; cursor: pointer; font-size: 14px; color: var(--text);
+}
+.reset-btn:hover { border-color: var(--primary); color: var(--primary); }
+
+.result-info { font-size: 13px; color: var(--text-light); margin-bottom: 12px; }
+
+/* 卡片 */
+.job-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+.job-card {
+  background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 16px 18px; box-shadow: var(--shadow); transition: transform .15s, box-shadow .15s;
+}
+.job-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,.1); }
+.job-card .company { font-size: 16px; font-weight: 700; margin-bottom: 4px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.job-card .title { font-size: 14px; color: var(--primary); margin-bottom: 10px; }
+.job-card .meta { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; color: var(--text-light); margin-bottom: 12px; }
+.job-card .meta span { display: inline-flex; align-items: center; gap: 4px; }
+.tag {
+  display: inline-block; padding: 2px 8px; border-radius: 20px; font-size: 11px; font-weight: 600;
+}
+.tag-new { background: #fff5f5; color: var(--accent); border: 1px solid #feb2b2; }
+.tag-batch { background: #ebf8ff; color: var(--primary); border: 1px solid #bee3f8; }
+.tag-alumni { background: #f0fff4; color: #276749; border: 1px solid #9ae6b4; }
+
+.job-card .actions { display: flex; gap: 10px; }
+.btn {
+  display: inline-block; padding: 7px 16px; border-radius: 8px; font-size: 13px; text-decoration: none;
+  text-align: center; transition: background .15s; border: 1px solid transparent;
+}
+.btn-primary { background: var(--primary); color: #fff; }
+.btn-primary:hover { background: var(--primary-dark); }
+.btn-outline { border-color: var(--border); color: var(--text); background: #fff; }
+.btn-outline:hover { border-color: var(--primary); color: var(--primary); }
+.btn.disabled { opacity: .5; pointer-events: none; }
+
+/* 空状态 */
+.empty {
+  grid-column: 1 / -1; text-align: center; padding: 60px 20px; color: var(--text-light); font-size: 15px;
+  background: var(--card-bg); border-radius: var(--radius); border: 1px dashed var(--border);
+}
+
+/* 分区说明 */
+.panel-intro { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; margin-bottom: 18px; }
+.panel-intro h2 { font-size: 18px; margin-bottom: 6px; color: var(--primary-dark); }
+.panel-intro p { font-size: 14px; color: var(--text-light); }
+
+/* 求职干货 */
+.tips-container { display: grid; gap: 16px; }
+.tip-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 22px; box-shadow: var(--shadow); }
+.tip-card h3 { font-size: 17px; color: var(--primary-dark); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+.tip-card ul { padding-left: 20px; }
+.tip-card li { margin-bottom: 8px; font-size: 14px; }
+.tip-card li strong { color: var(--primary); }
+.tip-card .tip-sub { font-size: 14px; margin-bottom: 10px; }
+
+/* 页脚 */
+.site-footer { background: #fff; border-top: 1px solid var(--border); padding: 16px 0; text-align: center; color: var(--text-light); font-size: 13px; }
+
+/* 移动端 */
+@media (max-width: 640px) {
+  .job-list { grid-template-columns: 1fr; }
+  .filter-bar { flex-direction: column; }
+  .search-input { min-width: 0; }
+  .header-inner { flex-direction: column; align-items: flex-start; }
+}

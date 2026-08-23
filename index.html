@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>校园招聘信息站 - 2027届校招 / 26届往届</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">🎓 校园招聘信息站</h1>
+      <div class="updated" id="updatedAt"></div>
+    </div>
+  </header>
+
+  <nav class="tab-bar">
+    <div class="container tab-inner">
+      <button class="tab-btn active" data-tab="campus2027">2027届校招</button>
+      <button class="tab-btn" data-tab="alumni2026">26届往届专区</button>
+      <button class="tab-btn" data-tab="tips">求职干货</button>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- 2027届校招 -->
+    <section id="tab-campus2027" class="tab-panel active">
+      <div class="filter-bar">
+        <input type="text" id="searchInput" class="search-input" placeholder="🔍 搜索企业/岗位关键词...">
+        <select id="industryFilter" class="filter-select"><option value="">全部行业</option></select>
+        <select id="cityFilter" class="filter-select"><option value="">全部城市</option></select>
+        <select id="degreeFilter" class="filter-select"><option value="">全部学历</option></select>
+        <button id="resetFilter" class="reset-btn">重置筛选</button>
+      </div>
+      <div class="result-info" id="resultInfo"></div>
+      <div class="job-list" id="jobList27"></div>
+    </section>
+
+    <!-- 26届往届专区 -->
+    <section id="tab-alumni2026" class="tab-panel">
+      <div class="panel-intro">
+        <h2>26届往届生求职专区</h2>
+        <p>已毕业的 26 届同学也可投递的补招、补录、往届可投岗位。标注"26届可投"。</p>
+      </div>
+      <div class="job-list" id="jobList26"></div>
+    </section>
+
+    <!-- 求职干货 -->
+    <section id="tab-tips" class="tab-panel">
+      <div class="tips-container" id="tipsContainer"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>数据每日更新 · 信息以企业官方发布为准</p>
+    </div>
+  </footer>
+
+  <script src="data/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

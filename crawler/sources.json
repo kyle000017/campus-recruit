@@ -1,0 +1,51 @@
+{
+  "sources": [
+    {
+      "name": "牛企直聘-27届校招汇总",
+      "type": "niuqizp",
+      "base_url": "https://campus.niuqizp.com",
+      "enabled": true,
+      "note": "按行业/地区分类的27届校招汇总页"
+    },
+    {
+      "name": "中国石油大学-2027届秋招汇总",
+      "type": "wechat_recruit",
+      "list_url": "https://ocean.upc.edu.cn/2026/0820/c15079a498506/page.htm",
+      "enabled": true,
+      "note": "校招信息汇总页,含微信公众号推文链接(浪潮/电信天翼云/京东/字节/B站等)"
+    },
+    {
+      "name": "华中科技大学就业信息网-招聘简章",
+      "type": "generic_list",
+      "list_url": "http://job.hust.edu.cn/zpxx123123/index_2.htm",
+      "item_selector": "a",
+      "base_url": "http://job.hust.edu.cn/",
+      "enabled": true,
+      "note": "2027届校招简章(芯耀辉/创维/Garena等),站内链接"
+    },
+    {
+      "name": "中国农业大学就业网",
+      "type": "generic_list",
+      "list_url": "https://scc.cau.edu.cn/frontpage/cau/html/index.html",
+      "item_selector": "a",
+      "enabled": true,
+      "note": "高校就业网"
+    },
+    {
+      "name": "北理工就业信息网",
+      "type": "generic_list",
+      "list_url": "http://career.bit.edu.cn/frontpage/bit/html/recruitmentinfoList.html",
+      "item_selector": "a",
+      "enabled": true,
+      "note": "高校就业网"
+    },
+    {
+      "name": "北师大就业资讯网-招聘信息",
+      "type": "generic_list",
+      "list_url": "https://career.bnu.edu.cn/frontpage/bnu/html/recruitmentinfoList.html",
+      "item_selector": "a",
+      "enabled": true,
+      "note": "高校就业网"
+    }
+  ]
+}
