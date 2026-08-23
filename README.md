@@ -104,13 +104,11 @@
 
 保存后运行 `update.bat`(会重新生成 data.js),或手动更新 `data/data.js` 中对应字段。
 
-## 部署到线上(Gitee)
+## 部署到线上(GitHub Pages)
 
-见 **[Gitee部署指南.md](Gitee部署指南.md)**——完整步骤:注册 Gitee → 建仓库 → 开启 Pages → 配置每日自动更新,实现外网访问。
+见 **[GitHub部署指南.md](GitHub部署指南.md)**——完整步骤:注册 GitHub → 建仓库 → 推送代码 → 开启 Pages → 启用 Actions 每日自动爬取,实现全自动外网访问。
 
-或部署到任意静态托管:
-- **GitHub Pages**:仓库 Settings → Pages → 选择 main 分支
-- **Vercel / Netlify**:拖拽文件夹即可部署
+> Gitee Pages 已下架,本方案改用 GitHub Pages(免费、稳定、支持 Actions 定时爬虫全自动更新)。
 
 ## 免责声明
 
