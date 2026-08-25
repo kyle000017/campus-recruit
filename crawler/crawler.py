@@ -310,8 +310,8 @@ def normalize_and_merge(raw_records, existing, batch_tag, today):
     return merged
 
 
-def finalize(records, batch_tag):
-    """去重、排序、打 id。"""
+def finalize(records, batch_tag, today):
+    """去重、按日期重算今日新增标记、排序、打 id。"""
     seen = set()
     out = []
     for r in records:
@@ -319,8 +319,9 @@ def finalize(records, batch_tag):
         if not key[0] or not key[1] or key in seen:
             continue
         seen.add(key)
-        # 过了一天,历史新增标记复位(保留当天新增)
         r["batch"] = batch_tag
+        # 今日新增只在该条目日期是今天时成立,过期自动复位
+        r["is_new"] = (r.get("date") == today)
         out.append(r)
     # 今日新增置顶,组内按日期降序(最新在前)
     out.sort(key=lambda x: (x.get("is_new"), x.get("date", "")), reverse=True)
@@ -350,9 +351,6 @@ def main():
     jobs2026_path = DATA_DIR / "jobs2026.json"
     existing_27 = load_existing(jobs2027_path)
     existing_26 = load_existing(jobs2026_path)
-
-    # 用于累积每次运行的新记录,供 is_new 标记得以保留
-    all_new = [r for r in existing_27 + existing_26 if r.get("is_new")]
 
     fetched_27 = []
     fetched_26 = []
@@ -427,14 +425,10 @@ def main():
     merged_27 = normalize_and_merge(fetched_27, existing_27, "2027届", today)
     merged_26 = normalize_and_merge(fetched_26, existing_26, "2026届", today)
 
-    # 将今日新增累积标记保留,然后复位过期的
-    new_keys = set((r["company"], r["title"]) for r in all_new)
-    for r in merged_27 + merged_26:
-        if (r.get("company"), r.get("title")) in new_keys:
-            r["is_new"] = True
+    # 今日新增标记由 finalize 按 date==today 统一重算,这里不再强行保留
 
-    merged_27 = finalize(merged_27, "2027届")
-    merged_26 = finalize(merged_26, "2026届")
+    merged_27 = finalize(merged_27, "2027届", today)
+    merged_26 = finalize(merged_26, "2026届", today)
 
     jobs2027_path.write_text(
         json.dumps(merged_27, ensure_ascii=False, indent=2), encoding="utf-8"
