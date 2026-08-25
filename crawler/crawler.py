@@ -214,6 +214,40 @@ def parse_wechat_recruit(html):
     return records
 
 
+def parse_niuqizp_social(html, base_url):
+    """
+    牛企直聘社招频道解析。
+    结构: ul.schedule-item > li.schedule-hover-wrap,含标题+日期+链接。
+    """
+    records = []
+    soup = BeautifulSoup(html, "lxml")
+    seen = set()
+    for li in soup.select("ul.schedule-item li"):
+        a = li.find("a")
+        if not a:
+            continue
+        title = clean_text(a.get_text())
+        if not title or title in seen:
+            continue
+        if is_navigation(title, a.get("href") or ""):
+            continue
+        seen.add(title)
+        link = _resolve_link(a.get("href") or "", base_url)
+        # 提取日期(li 内类似 2026-08-25 的文本)
+        li_text = clean_text(li.get_text())
+        m = re.search(r"(\d{4}-\d{2}-\d{2})", li_text)
+        date = m.group(1) if m else ""
+        company = _extract_company(title)
+        records.append({
+            "title": title,
+            "company": company,
+            "link": link,
+            "date": date,
+            "text": li_text,
+        })
+    return records
+
+
 def _extract_company(title):
     """从招聘标题提取企业名:取第一个名词性片段。"""
     # 去掉常见前缀(含全角/半角括号包裹的"招聘")
@@ -300,7 +334,7 @@ def normalize_and_merge(raw_records, existing, batch_tag, today):
             "industry": r.get("industry", ""),
             "city": r.get("city", ""),
             "degree": r.get("degree", ""),
-            "date": today,
+            "date": r.get("date") or today,
             "link": r.get("link", ""),
             "is_new": True,
             "batch": batch_tag,
@@ -349,11 +383,14 @@ def main():
 
     jobs2027_path = DATA_DIR / "jobs2027.json"
     jobs2026_path = DATA_DIR / "jobs2026.json"
+    jobs_social_path = DATA_DIR / "jobs_social.json"
     existing_27 = load_existing(jobs2027_path)
     existing_26 = load_existing(jobs2026_path)
+    existing_social = load_existing(jobs_social_path)
 
     fetched_27 = []
     fetched_26 = []
+    fetched_social = []
 
     for src in config.get("sources", []):
         if not src.get("enabled"):
@@ -417,6 +454,12 @@ def main():
                         else:
                             fetched_27.append(r)
                     log(f"  解析到 {len(raw)} 条")
+            elif src.get("type") == "niuqizp_social":
+                html = safe_get(src.get("list_url"))
+                if html:
+                    raw = parse_niuqizp_social(html, src.get("base_url", "https://jobs.niuqizp.com"))
+                    fetched_social.extend(raw)
+                    log(f"  解析到 {len(raw)} 条(社招)")
         except Exception as e:
             log(f"  [源异常] {name}: {e}")
             continue
@@ -424,17 +467,22 @@ def main():
     # 合并并写出(即使本次抓取为空,也保留已有数据,不覆盖丢失)
     merged_27 = normalize_and_merge(fetched_27, existing_27, "2027届", today)
     merged_26 = normalize_and_merge(fetched_26, existing_26, "2026届", today)
+    merged_social = normalize_and_merge(fetched_social, existing_social, "社招", today)
 
     # 今日新增标记由 finalize 按 date==today 统一重算,这里不再强行保留
 
     merged_27 = finalize(merged_27, "2027届", today)
     merged_26 = finalize(merged_26, "2026届", today)
+    merged_social = finalize(merged_social, "社招", today)
 
     jobs2027_path.write_text(
         json.dumps(merged_27, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     jobs2026_path.write_text(
         json.dumps(merged_26, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    jobs_social_path.write_text(
+        json.dumps(merged_social, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
     # 生成供前端 script 直接加载的 data.js(避免 file:// 下 fetch 被同源策略拦截)
@@ -449,12 +497,13 @@ def main():
         "updated_at": today,
         "jobs2027": merged_27,
         "jobs2026": merged_26,
+        "jobs_social": merged_social,
         "tips": tips,
     }
     js_content = "window.SCHOOL_RECRUIT = " + json.dumps(js_payload, ensure_ascii=False, indent=2) + ";"
     (DATA_DIR / "data.js").write_text(js_content, encoding="utf-8")
 
-    log(f"完成: 2027届 {len(merged_27)} 条, 2026届往届 {len(merged_26)} 条")
+    log(f"完成: 2027届 {len(merged_27)} 条, 2026届往届 {len(merged_26)} 条, 社招 {len(merged_social)} 条")
     log(f"输出: {jobs2027_path} / {jobs2026_path} / data/data.js")
 
 

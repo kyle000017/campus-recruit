@@ -3,7 +3,7 @@
   "use strict";
 
   // 数据来源: data/data.js 注入 window.SCHOOL_RECRUIT
-  var DATA = window.SCHOOL_RECRUIT || { jobs2027: [], jobs2026: [], tips: [], updated_at: "" };
+  var DATA = window.SCHOOL_RECRUIT || { jobs2027: [], jobs2026: [], jobs_social: [], tips: [], updated_at: "" };
 
   var state = {
     activeTab: "campus2027",
@@ -38,6 +38,7 @@
         });
         if (tab === "campus2027") render2027();
         if (tab === "alumni2026") render2026();
+        if (tab === "social") renderSocial();
         if (tab === "tips") renderTips();
       });
     });
@@ -102,6 +103,11 @@
     document.getElementById("jobList26").innerHTML = renderCards(jobs, "2026届");
   }
 
+  function renderSocial() {
+    var jobs = DATA.jobs_social || [];
+    document.getElementById("jobListSocial").innerHTML = renderCards(jobs, "社招");
+  }
+
   function renderCards(jobs, batch) {
     if (!jobs.length) {
       return '<div class="empty">暂无数据。运行爬虫或等待每日更新。</div>';
@@ -114,8 +120,9 @@
 
       var linkBtn = "";
       if (j.link) {
-        var isWechat = j.link.indexOf("mp.weixin.qq.com") > -1;
-        var label = isWechat ? "查看校招推文 ↗" : "官网投递 ↗";
+        var label = "查看详情 ↗";
+        if (j.link.indexOf("mp.weixin.qq.com") > -1) label = "查看校招推文 ↗";
+        else if (batch === "2027届" || batch === "2026届") label = "官网投递 ↗";
         linkBtn = '<a class="btn btn-primary" href="' + escapeHtml(j.link) + '" target="_blank" rel="noopener">' + label + "</a>";
       } else {
         linkBtn = '<span class="btn btn-outline disabled">链接待补充</span>';
@@ -173,6 +180,7 @@
     fillFilters();
     render2027();
     render2026();
+    renderSocial();
     renderTips();
     initUpdatedAt();
   });

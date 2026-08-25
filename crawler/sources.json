@@ -8,6 +8,14 @@
       "note": "按行业/地区分类的27届校招汇总页"
     },
     {
+      "name": "牛企直聘-社招频道",
+      "type": "niuqizp_social",
+      "list_url": "https://jobs.niuqizp.com/",
+      "base_url": "https://jobs.niuqizp.com",
+      "enabled": true,
+      "note": "社招职位公告(腾讯/美团/事业单位/国企等)"
+    },
+    {
       "name": "中国石油大学-2027届秋招汇总",
       "type": "wechat_recruit",
       "list_url": "https://ocean.upc.edu.cn/2026/0820/c15079a498506/page.htm",
