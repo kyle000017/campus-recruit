@@ -455,7 +455,7 @@ def main():
                             fetched_27.append(r)
                     log(f"  解析到 {len(raw)} 条")
             elif src.get("type") == "niuqizp_social":
-                html = safe_get(src.get("list_url"))
+                html = safe_get(src.get("list_url"), encoding="utf-8")
                 if html:
                     raw = parse_niuqizp_social(html, src.get("base_url", "https://jobs.niuqizp.com"))
                     fetched_social.extend(raw)
