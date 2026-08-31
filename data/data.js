@@ -1,5 +1,5 @@
 window.SCHOOL_RECRUIT = {
-  "updated_at": "2026-08-30",
+  "updated_at": "2026-08-31",
   "jobs2027": [
     {
       "id": "2027-001",
@@ -10,7 +10,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409246.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -22,7 +22,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409245.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -34,7 +34,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2169739.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -46,7 +46,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409244.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -58,7 +58,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409243.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -70,7 +70,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409242.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -82,7 +82,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409241.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -94,7 +94,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409240.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -106,7 +106,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409229.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -118,7 +118,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409239.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -130,7 +130,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409238.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -142,7 +142,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409236.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -154,7 +154,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409235.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -166,7 +166,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409233.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -178,7 +178,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409232.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -190,7 +190,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409228.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -202,7 +202,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409227.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
@@ -214,7 +214,7 @@ window.SCHOOL_RECRUIT = {
       "degree": "",
       "date": "2026-08-30",
       "link": "http://job.hust.edu.cn/zpinfo1/2409226.htm",
-      "is_new": true,
+      "is_new": false,
       "batch": "2027届"
     },
     {
