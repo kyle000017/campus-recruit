@@ -1,5 +1,5 @@
 window.SCHOOL_RECRUIT = {
-  "updated_at": "2026-10-03",
+  "updated_at": "2026-10-04",
   "jobs2027": [
     {
       "id": "2027-001",
